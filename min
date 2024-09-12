@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>minbørnebog - הספר שבו הילד שלכם הוא הכוכב!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        nav {
+            background-color: #fff;
+            overflow: hidden;
+        }
+        nav a {
+            float: right;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .intro {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .themes, .reviews, .special-offers {
+            padding: 20px 0;
+        }
+        h2 {
+            text-align: center;
+        }
+        .themes ul {
+            list-style: none;
+            padding: 0;
+            overflow: hidden;
+        }
+        .themes li {
+            float: right;
+            width: 24%;
+            margin: 0.5%;
+            background-color: #fff;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .themes li img {
+            max-width: 100%;
+            height: auto;
+        }
+        .steps {
+            background-color: #fff;
+            padding: 20px 0;
+        }
+        .steps ul {
+            list-style: none;
+            padding: 0;
+            overflow: hidden;
+        }
+        .steps li {
+            float: right;
+            width: 32%;
+            margin: 1%;
+            text-align: center;
+        }
+        .gallery, .contact-info {
+            padding: 20px 0;
+        }
+        .reviews blockquote {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            box-sizing: border-box;
+        }
+        .cta {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .cta a {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+            overflow: hidden;
+            margin: 0;
+        }
+        footer li {
+            float: right;
+            margin-left: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            .themes li, .steps li {
+                width: 48%;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .themes li, .steps li {
+                width: 100%;
+            }
+            nav a {
+                float: none;
+                width: 100%;
+            }
+            footer li {
+                float: none;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>minbørnebog</h1>
+    <p>הספר שבו הילד שלכם הוא הכוכב!</p>
+</header>
+
+<nav>
+    <a href="#contact">צרו קשר</a>
+    <a href="#faq">שאלות נפוצות</a>
+    <a href="#start">התחילו עכשיו</a>
+    <a href="#themes">ערכות נושא</a>
+</nav>
+
+<div class="container">
+
+    <section class="intro">
+        <p>דמיינו ספר מיוחד שבו הילד שלכם הוא הגיבור הראשי, עם סיפור מרתק ותמונות מונפשות שלו בכל עמוד. עם minbørnebog, זה אפשרי!</p>
+    </section>
+
+    <section class="themes" id="themes">
+        <h2>ערכות הנושא שלנו</h2>
+        <ul>
+            <li>
+                <img src="space-theme.jpg" alt="טיסה לחלל">
+                <p><strong>טיסה לחלל</strong> 🚀</p>
+            </li>
+            <li>
+                <img src="unicorn-theme.jpg" alt="עולם חדי הקרן">
+                <p><strong>עולם חדי הקרן</strong> 🦄</p>
+            </li>
+            <li>
+                <img src="princess-theme.jpg" alt="פנטזיית נסיכות">
+                <p><strong>פנטזיית נסיכות</strong> 👑</p>
+            </li>
+            <li>
+                <img src="animals-theme.jpg" alt="הרפתקה עם חיות">
+                <p><strong>הרפתקה עם חיות</strong> 🐾</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="steps">
+        <h2>תהליך פשוט בשלושה שלבים</h2>
+        <ul>
+            <li>
+                <h3>1. העלו תמונת פנים של הילד שלכם 📸</h3>
+            </li>
+            <li>
+                <h3>2. בחרו את ערכת הנושא האהובה 🎨</h3>
+            </li>
+            <li>
+                <h3>3. קבלו ספר אישי ומיוחד 📖</h3>
+            </li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <h2>הצצה לספרים שלנו</h2>
+        <!-- כאן ניתן להוסיף גלריית תמונות וסרטונים -->
+    </section>
+
+    <section class="reviews">
+        <h2>מה הלקוחות שלנו אומרים</h2>
+        <blockquote>
+            <p>"הספר הזה הפך למתנה המושלמת! הבן שלי לא מפסיק לקרוא אותו."</p>
+            <cite>- נועה, תל אביב</cite>
+        </blockquote>
+        <blockquote>
+            <p>"חוויה מדהימה לראות את בתי כגיבורת הסיפור. מומלץ בחום!"</p>
+            <cite>- דוד, חיפה</cite>
+        </blockquote>
+    </section>
+
+    <section class="special-offers">
+        <h2>מבצעים מיוחדים</h2>
+        <p><strong>רכישה מרובה? חיסכון גדול!</strong></p>
+        <p>קנו יותר מעותק אחד וקבלו הנחות מיוחדות.</p>
+    </section>
+
+    <section class="cta" id="start">
+        <h2>התחילו עכשיו!</h2>
+        <p>הפתיעו את הילד שלכם עם ספר שלא ישכח.</p>
+        <a href="#upload">התחילו ביצירת הספר שלכם</a>
+    </section>
+
+    <hr>
+
+    <section id="upload">
+        <h2>שלב 1: העלאת התמונה</h2>
+        <p>העלו תמונת פנים ברורה של הילד שלכם כדי להתחיל.</p>
+        <!-- טופס העלאת תמונה -->
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="child-photo" accept="image/*" required><br><br>
+            <input type="submit" value="העלאת תמונה">
+        </form>
+        <p><strong>טיפים לתמונה מושלמת:</strong></p>
+        <ul>
+            <li>תמונת פנים קדמית וברורה</li>
+            <li>תאורה טובה</li>
+            <li>ללא כובעים או משקפיים כהים</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer id="contact">
+    <ul>
+        <li><a href="#contact">צרו קשר</a></li>
+        <li><a href="#faq">שאלות נפוצות</a></li>
+        <li><a href="#terms">תנאי שימוש</a></li>
+        <li><a href="#privacy">מדיניות פרטיות</a></li>
+    </ul>
+    <p>© 2023 minbørnebog - כי לכל ילד מגיע להיות כוכב</p>
+</footer>
+
+</body>
+</html>
